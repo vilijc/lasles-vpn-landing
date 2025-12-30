@@ -4,7 +4,7 @@ import logo from "../assets/logo.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="w-full flex items-center justify-between py-4 px-8 bg-transparent relative">
+    <nav className="w-full flex items-center justify-between py-4 bg-transparent relative">
       <div className="flex items-center z-20">
         <img src={logo} alt="Logo" style={{ width: 125, height: 24 }} />
       </div>
