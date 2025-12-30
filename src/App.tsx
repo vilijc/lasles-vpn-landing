@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import { StatsBar } from "./components/StatsBar"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="px-14">
         <Navbar />
         <Hero />
+        <StatsBar />
       </div>
     </div>
   )
