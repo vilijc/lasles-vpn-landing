@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div
         className="w-full lg:w-1/2 xl:w-[65%] h-64 lg:h-[400px] bg-no-repeat bg-center bg-contain"
-        style={{ backgroundImage: "url('/src/assets/image_hero.png')" }}
+        style={{ backgroundImage: "url('/image_hero.png')" }}
       ></div>
     </section>
   )

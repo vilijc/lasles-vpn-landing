@@ -29,11 +29,11 @@ export function StatsBar() {
         <div
           className="flex flex-col md:flex-row items-center justify-between w-full gap-4 md:gap-0"
         >
-          <StatItem value="90+" label="Users" imageSrc="/src/assets/users.png" />
+          <StatItem value="90+" label="Users" imageSrc="/users.png" />
           <div className="hidden md:block h-10 w-px bg-gray-200" />
-          <StatItem value="30+" label="Locations" imageSrc="/src/assets/locations.png" />
+          <StatItem value="30+" label="Locations" imageSrc="/locations.png" />
           <div className="hidden md:block h-10 w-px bg-gray-200" />
-          <StatItem value="50+" label="Servers" imageSrc="/src/assets/servers.png" />
+          <StatItem value="50+" label="Servers" imageSrc="/servers.png" />
         </div>
       </div>
     </section>
