@@ -1,12 +1,11 @@
-import { useState } from "react"
-import logo from "../assets/logo.png"
+import React, { useState } from "react"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className="w-full flex items-center justify-between py-4 bg-transparent relative">
       <div className="flex items-center z-20">
-        <img src={logo} alt="Logo" style={{ width: 125, height: 24 }} />
+        <img src="/logo.png" alt="Logo" style={{ width: 125, height: 24 }} />
       </div>
       <div className="hidden md:flex gap-4 lg:gap-[64px]">
         <a href="#features" className="text-base font-light text-gray-700 hover:text-red-500 transition">Features</a>
